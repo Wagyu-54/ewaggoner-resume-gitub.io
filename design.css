@@ -78,13 +78,49 @@ body {
 }
 
 
-/* =========================
-   JOB / EXPERIENCE
-========================= */
+/* EXPERIENCE */
 
 .job h3 {
     font-size: 1.1rem;
     color: #333333;
     margin-bottom: 6px;
     font-weight: 600;
+}
+
+/*  LISTS */
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.list a {
+    color: #2a6f97;
+    text-decoration: none;
+}
+
+.list a:hover {
+    text-decoration: underline;
+}
+
+
+/* SKILLS */
+
+.skills {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #eef3f8;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.95rem;
 }
