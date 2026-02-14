@@ -53,3 +53,38 @@ body {
 .contact a:hover {
     text-decoration: underline;
 }
+
+.main-content {
+    padding: 30px 0;
+}
+
+
+/* SECTIONS */
+
+.section {
+    margin-bottom: 35px;
+}
+
+.section h2 {
+    font-size: 1.4rem;
+    color: #1f3a5f;
+    border-left: 5px solid #2a6f97;
+    padding-left: 12px;
+    margin-bottom: 12px;
+}
+
+.section p {
+    font-size: 1rem;
+}
+
+
+/* =========================
+   JOB / EXPERIENCE
+========================= */
+
+.job h3 {
+    font-size: 1.1rem;
+    color: #333333;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
