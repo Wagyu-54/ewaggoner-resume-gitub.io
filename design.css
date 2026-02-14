@@ -124,3 +124,62 @@ body {
     text-align: center;
     font-size: 0.95rem;
 }
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    text-align: center;
+    padding: 15px 5px;
+    border-top: 2px solid #e1e4e8;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+
+/*  RESPONSIVE DESIGN 
+
+/* DESKTOP */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding: 40px;
+    }
+
+    .header {
+        text-align: left;
+        padding: 40px 0;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .contact {
+        font-size: 1.05rem;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 40px;
+    }
+
+    /* Left Column */
+    .section:nth-child(1),
+    .section:nth-child(2),
+    .section:nth-child(3),
+    .section:nth-child(4) {
+        grid-column: 1 / 2;
+    }
+
+    /* Right Column (Skills) */
+    .section:nth-child(5) {
+        grid-column: 2 / 3;
+    }
+
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
